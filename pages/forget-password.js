@@ -1,11 +1,12 @@
-import { Footer, Loading, Navbar } from "../components";
-import { ForgetPass } from '../sections';
+import { Footer, Loading, Navbar, Topbar } from "../components";
+import { ForgetPassword } from '../sections';
 
 function index() {
     return (
         <>
+            <Topbar />
             <Navbar />
-            <ForgetPass />
+            <ForgetPassword />
             <Footer />
             <Loading />
         </>

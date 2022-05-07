@@ -1,10 +1,11 @@
-import { Footer, Navbar, Loading } from "../components";
+import { Footer, Navbar, Loading, Topbar } from "../components";
 
 import { Login } from '../sections';
 
 function index() {
     return (
         <>
+            <Topbar />
             <Navbar />
             <Login />
             <Footer />

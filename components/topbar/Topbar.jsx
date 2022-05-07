@@ -9,11 +9,11 @@ function Topbar() {
                         <p className='text-xs text-gray-500'>Contact: Lake Road, Suite 180 Farmington Hills, U.S.A.</p>
                     </div>
                     <div>
-                        <Link href="/contact">
+                        <a href="/contact">
                             <button className='text-sm text-white bg-red-500 py-1 px-2'>
                                 Contact Info
                             </button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
