@@ -1,6 +1,5 @@
-import { Footer, Navbar } from "../components";
-
-import ForgetPass from '../sections/Auth/ForgetPass/ForgetPass';
+import { Footer, Loading, Navbar } from "../components";
+import { ForgetPass } from '../sections';
 
 function index() {
     return (
@@ -8,6 +7,7 @@ function index() {
             <Navbar />
             <ForgetPass />
             <Footer />
+            <Loading />
         </>
     )
 }

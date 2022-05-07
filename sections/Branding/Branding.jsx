@@ -10,13 +10,15 @@ import HotelImg2 from '../../assets/images/hotels/2.jpg';
 import HotelImg3 from '../../assets/images/hotels/3.jpg';
 import HotelImg4 from '../../assets/images/hotels/4.jpg';
 
-
 import Card from './Card/Card';
+
+import Title from '../../helpers/title/Title';
 
 function Branding() {
     return (
         <section className='py-20'>
             <div className="container mx-auto px-10">
+                <Title header="Branding" span="We Offer all of that" />
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className='bg-white shadow-lg border border-slate-200 pb-5'>
                         <div className="text-center bg-gray-900 text-white p-4 w-full mb-5">

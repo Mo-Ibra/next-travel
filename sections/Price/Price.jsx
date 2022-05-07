@@ -1,7 +1,10 @@
+import Title from "../../helpers/title/Title"
+
 function Price() {
     return (
         <section className='py-20'>
             <div className="container mx-auto px-10">
+                <Title header="Our Plans" span="We Offer all of that" />
                 <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
                     <div className='bg-white shadow-2xl text-center p-8 rounded-lg border-t-4 border-orange-500'>
                         <div>

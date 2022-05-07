@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 import { useMediaQuery } from 'react-responsive';
 
@@ -19,13 +20,18 @@ import InnerImage from '../../../assets/images/cities/2.jpg';
 
 function Single() {
 
+    const [mount, setMount] = useState(false);
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
+
+    useEffect(() => {
+        setMount(true);
+    }, [])
 
     return (
         <section className='py-20'>
             <div className="container mx-auto px-10">
                 <div className="grid grid-cols-3 gap-8">
-                    <div className={`${isTabletOrMobile ? 'col-span-3' : 'col-span-2'}`}>
+                    <div className={`${mount && isTabletOrMobile ? 'col-span-3' : 'col-span-2'}`}>
                         <Image src={ThumbImage} alt="Thumb" />
                         <div className="flex justify-between py-2">
                             <div className='flex items-center'>
@@ -96,7 +102,7 @@ function Single() {
                             aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                         </p>
                     </div>
-                    <div className={`${isTabletOrMobile ? 'col-span-3' : null}`}>
+                    <div className={`${mount && isTabletOrMobile ? 'col-span-3' : null}`}>
                         <div className='search'>
                             <input type="text" placeholder='Search' className='outline-none border border-slate-200 w-full py-2 px-2 text-sm text-gray-500 rounded-md' />
                         </div>

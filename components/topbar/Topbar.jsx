@@ -1,17 +1,12 @@
-import { useMediaQuery } from 'react-responsive';
-
 import Link from 'next/link';
 
 function Topbar() {
-
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
-
     return (
         <nav className='bg-slate-100'>
             <div className="container mx-auto px-10">
                 <div className="flex justify-between items-center">
                     <div>
-                        <p className={`${isTabletOrMobile ? 'text-xs' : 'text-sm'} text-gray-500`}>Contact: Lake Road, Suite 180 Farmington Hills, U.S.A.</p>
+                        <p className='text-xs text-gray-500'>Contact: Lake Road, Suite 180 Farmington Hills, U.S.A.</p>
                     </div>
                     <div>
                         <Link href="/contact">

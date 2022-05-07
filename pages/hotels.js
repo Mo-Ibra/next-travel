@@ -1,7 +1,6 @@
-import { Footer, Navbar, Topbar, Breadcrumb } from "../components"
-import ContactIcons from "../sections/ContactIcons/ContactIcons"
-import DownloadApp from "../sections/DownloadApp/DownloadApp"
-import Hotels from "../sections/Hotels/Hotels"
+import { Footer, Navbar, Topbar, Breadcrumb, ContactIcons, Loading } from "../components";
+
+import { DownloadApp, Hotels } from '../sections';
 
 function index() {
     return (
@@ -13,8 +12,9 @@ function index() {
             <DownloadApp />
             <Footer />
             <ContactIcons />
+            <Loading />
         </>
     )
 }
 
-export default index
+export default index;

@@ -1,6 +1,6 @@
-import { Footer, Navbar } from "../components";
+import { Footer, Loading, Navbar } from "../components";
 
-import Register from '../sections/Auth/Register/Register';
+import { Register } from '../sections';
 
 function register() {
     return (
@@ -8,6 +8,7 @@ function register() {
             <Navbar />
             <Register />
             <Footer />
+            <Loading />
         </>
     )
 }

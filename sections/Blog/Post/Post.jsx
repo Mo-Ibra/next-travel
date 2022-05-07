@@ -15,6 +15,8 @@ import { Autoplay } from 'swiper';
 
 import { useMediaQuery } from 'react-responsive';
 
+import Title from '../../../helpers/title/Title';
+
 function Post({ backgroundColor }) {
 
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 980px)' });
@@ -22,6 +24,7 @@ function Post({ backgroundColor }) {
     return (
         <section className={`py-10 ${backgroundColor}`}>
             <div className="container mx-auto px-10">
+                <Title header="Latest Posts" span="Be in touch with us" />
                 <Swiper
                     spaceBetween={50}
                     slidesPerView={isTabletOrMobile ? 1 : 3}

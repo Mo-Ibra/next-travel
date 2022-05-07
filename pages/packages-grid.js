@@ -1,8 +1,5 @@
-import { Footer, Navbar, Breadcrumb } from '../components';
-import DownloadApp from '../sections/DownloadApp/DownloadApp';
-import PackagesGrid from '../sections/Packages/PackagesGrid/PackagesGrid';
-
-import Topbar from '../sections/Topbar/Topbar';
+import { Footer, Navbar, Breadcrumb, Topbar, Loading, ContactIcons } from '../components';
+import { DownloadApp, PackagesGrid } from '../sections';
 
 function index() {
     return (
@@ -13,6 +10,8 @@ function index() {
             <PackagesGrid />
             <DownloadApp />
             <Footer />
+            <Loading />
+            <ContactIcons />
         </>
     )
 }

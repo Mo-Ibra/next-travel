@@ -7,6 +7,7 @@ import PackageImg2 from '../../../assets/images/packages/2.jpg';
 import PackageImg3 from '../../../assets/images/packages/3.jpg';
 import PackageImg4 from '../../../assets/images/packages/4.jpg';
 import PackageImg5 from '../../../assets/images/packages/5.jpg';
+import Title from '../../../helpers/title/Title';
 
 import Card from './Card/Card';
 import SuggestCard from './Card/SuggestCard';
@@ -23,6 +24,7 @@ function PackagesWithFilter() {
     return (
         <section className='py-20'>
             <div className="container mx-auto px-10">
+                <Title header="Our Packages" span="Choose what you prefer" />
                 <div className={`${mount && isTablet ? 'block' : 'flex'} `}>
                     <div className={`${mount && isTablet ? 'block w-full' : 'flex-none w-80'}`}>
                         <div className="p-4">

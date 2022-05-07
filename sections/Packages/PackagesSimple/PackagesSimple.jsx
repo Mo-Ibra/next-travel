@@ -6,11 +6,13 @@ import PackageImg2 from '../../../assets/images/packages/2.jpg';
 import PackageImg3 from '../../../assets/images/packages/3.jpg';
 import PackageImg4 from '../../../assets/images/packages/4.jpg';
 import PackageImg5 from '../../../assets/images/packages/5.jpg';
+import Title from '../../../helpers/title/Title';
 
 function PackagesSimple() {
     return (
         <section className='py-20 bg-slate-100'>
             <div className="container mx-auto px-10">
+                <Title header="Our Packages" span="Choose what you prefer" />
                 <Card imageUrl={PackageImg1} name="Family Package 12 Night/13 Days" rating={4} tickets="5" />
                 <Card imageUrl={PackageImg2} name="Family Package 12 Night/13 Days" rating={5} tickets="28" />
                 <Card imageUrl={PackageImg3} name="Family Package 12 Night/13 Days" rating={3} tickets="15" />

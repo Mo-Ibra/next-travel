@@ -12,10 +12,13 @@ import SectionImg from '../../assets/images/sections/1.png';
 
 import Image from 'next/image';
 
+import Title from '../../helpers/title/Title';
+
 function Tours() {
     return (
         <section className='py-20 relative'>
             <div className="container mx-auto px-10">
+                <Title header="Our Tours" span="We Offer all of that" />
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <Card imageUrl={TourImg1} name="Rio De Janeiro" city="Brazil" off="50%" />
                     <Card imageUrl={TourImg2} name="Rio De Janeiro" city="Brazil" off="75%" />
@@ -25,8 +28,8 @@ function Tours() {
                     <Card imageUrl={TourImg6} name="Rio De Janeiro" city="Brazil" off="25%" />
                 </div>
             </div>
-            <div className="absolute top-0 left-0 right-0 bottom-0" style={{zIndex: '-1'}}>
-                <Image src={SectionImg} alt="Section"/>
+            <div className="absolute top-0 left-0 right-0 bottom-0" style={{ zIndex: '-1' }}>
+                <Image src={SectionImg} alt="Section" />
             </div>
         </section>
     )

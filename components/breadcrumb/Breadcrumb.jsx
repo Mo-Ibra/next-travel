@@ -4,14 +4,21 @@ import { useMediaQuery } from 'react-responsive';
 
 import { AiFillCaretRight } from 'react-icons/ai';
 
+import { useEffect, useState } from 'react';
+
 function Breadcrumb({pageName, header = 'Best Journey To Peaceful Places'}) {
 
+    const [mount, setMount] = useState(false);
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
+
+    useEffect(() => {
+        setMount(true);
+    }, []);
 
     return (
         <div className={`${styles.breadCrumb} relative z-10`}>
             <div className="container mx-auto px-10">
-                <h2 className={`${isTabletOrMobile ? 'text-4xl pt-28' : 'text-5xl pt-32'} text-white font-bold w-2/4 uppercase`}>
+                <h2 className={`${mount && isTabletOrMobile ? 'text-4xl pt-28' : 'text-5xl pt-32'} text-white font-bold w-2/4 uppercase`}>
                     {header}
                 </h2>
                 <div className='my-2 text-white font-bold'>

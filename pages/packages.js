@@ -1,6 +1,6 @@
-import { Footer, Navbar, Breadcrumb, Topbar } from '../components';
-import DownloadApp from '../sections/DownloadApp/DownloadApp';
-import PackagesWithFilter from '../sections/Packages/PackagesWithFilter/PackagesWithFilter';
+import { Footer, Navbar, Breadcrumb, Topbar, Loading, ContactIcons } from '../components';
+
+import { DownloadApp, PackagesWithFilter } from '../sections';
 
 function index() {
     return (
@@ -11,6 +11,8 @@ function index() {
             <PackagesWithFilter />
             <DownloadApp />
             <Footer />
+            <Loading />
+            <ContactIcons />
         </>
     )
 }

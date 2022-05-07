@@ -1,4 +1,4 @@
-import Notfound from '../sections/Notfound/Notfound'
+import { Notfound } from '../sections';
 
 function index() {
     return (

@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from './news.module.scss';
 import { BsFillCursorFill } from 'react-icons/bs';
+import Title from '../../../helpers/title/Title';
 
 function News() {
     return (
         <section className='py-20' id='news'>
             <div className="container mx-auto px-10">
+                <Title header="Latest News" span="Be in touch with us!" />
                 <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
                     <div className={`${styles.newsCard} ${styles.orange} bg-white shadow-2xl rounded-sm p-8 cursor-pointer hover:text-white relative`}>
                         <div className={`${styles.newsBadge} absolute top-0 left-0 p-2 text-white text-sm font-semibold rounded-br-lg`}>

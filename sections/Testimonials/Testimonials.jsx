@@ -12,6 +12,8 @@ import AvatarImg4 from '../../assets/images/avatars/4.jpg';
 
 import Card from './Card/Card';
 
+import Title from '../../helpers/title/Title';
+
 function Testimonials() {
 
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' });
@@ -19,6 +21,7 @@ function Testimonials() {
     return (
         <section className='py-20'>
             <div className="container mx-auto px-10">
+                <Title header="Testimonials" span="We Offer all of that" />
                 <Swiper
                     spaceBetween={50}
                     slidesPerView={isTabletOrMobile ? 1 : 2}

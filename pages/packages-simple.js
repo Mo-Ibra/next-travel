@@ -1,8 +1,6 @@
-import { Footer, Navbar, Breadcrumb } from '../components';
-import DownloadApp from '../sections/DownloadApp/DownloadApp';
-import PackagesSimple from '../sections/Packages/PackagesSimple/PackagesSimple';
+import { Footer, Navbar, Breadcrumb, Topbar, Loading, ContactIcons } from '../components';
 
-import Topbar from '../sections/Topbar/Topbar';             // make all export from one file..
+import { DownloadApp, PackagesSimple } from '../sections';
 
 function index() {
     return (
@@ -13,6 +11,8 @@ function index() {
             <PackagesSimple />
             <DownloadApp />
             <Footer />
+            <Loading />
+            <ContactIcons />
         </>
     )
 }

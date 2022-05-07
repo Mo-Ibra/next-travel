@@ -1,9 +1,11 @@
 import { AiFillMessage, AiFillMail, AiFillPhone } from 'react-icons/ai'
+import Title from '../../../helpers/title/Title'
 
 function ContactInfo({backgroundColor}) {
     return (
         <section className={`${backgroundColor} py-10`}>
             <div className="container mx-auto px-10">
+                <Title header="Contact US!" span="There's alot of methods for contact" />
                 <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
                     <div className='bg-white hover:shadow-lg cursor-pointer duration-300 border border-slate-200 text-center py-10 rounded-lg'>
                         <div className="iconProvider">

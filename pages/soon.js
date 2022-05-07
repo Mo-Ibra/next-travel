@@ -1,4 +1,4 @@
-import Soon from '../sections/Soon/Soon'
+import { Soon } from '../sections';
 
 function index() {
     return (

@@ -1,7 +1,6 @@
-import { Footer, Navbar, Topbar, Breadcrumb } from "../components"
-import ContactIcons from "../sections/ContactIcons/ContactIcons"
-import DownloadApp from "../sections/DownloadApp/DownloadApp"
-import Branding from "../sections/Branding/Branding"
+import { Footer, Navbar, Topbar, Breadcrumb, ContactIcons, Loading } from "../components"
+
+import { DownloadApp, Branding } from '../sections';
 
 function index() {
     return (
@@ -13,6 +12,7 @@ function index() {
             <DownloadApp />
             <Footer />
             <ContactIcons />
+            <Loading />
         </>
     )
 }
