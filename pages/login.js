@@ -1,4 +1,4 @@
-import { Footer, Navbar, Loading, Topbar } from "../components";
+import { Footer, Navbar, Topbar } from "../components";
 
 import { Login } from '../sections';
 
@@ -15,7 +15,6 @@ function index() {
             <Navbar />
             <Login />
             <Footer />
-            <Loading />
         </div>
     )
 }

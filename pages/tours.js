@@ -1,4 +1,4 @@
-import { Footer, Navbar, Breadcrumb, Topbar, ContactIcons, Loading } from "../components"
+import { Footer, Navbar, Breadcrumb, Topbar, ContactIcons } from "../components"
 
 import { DownloadApp, Tours } from '../sections';
 
@@ -18,7 +18,6 @@ function index() {
             <DownloadApp />
             <Footer />
             <ContactIcons />
-            <Loading />
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import { Footer, Navbar, Breadcrumb, Topbar, Loading, ContactIcons } from '../components';
+import { Footer, Navbar, Breadcrumb, Topbar, ContactIcons } from '../components';
 import { DownloadApp, PackagesGrid } from '../sections';
 
 import Head from 'next/head';
@@ -16,7 +16,6 @@ function index() {
             <PackagesGrid />
             <DownloadApp />
             <Footer />
-            <Loading />
             <ContactIcons />
         </div>
     )

@@ -1,4 +1,4 @@
-import { Footer, Loading, Navbar, Topbar } from "../components";
+import { Footer, Navbar, Topbar } from "../components";
 import { ForgetPassword } from '../sections';
 
 import Head from "next/head";
@@ -14,7 +14,6 @@ function index() {
             <Navbar />
             <ForgetPassword />
             <Footer />
-            <Loading />
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import { Footer, Header, Navbar, Topbar, Loading, ContactIcons } from "../components";
+import { Footer, Header, Navbar, Topbar, ContactIcons } from "../components";
 
 import { Cities, Hotels, Tours, Branding, Discount, Price, News, DownloadApp } from "../sections";
 
@@ -23,7 +23,6 @@ function Home() {
       <News />
       <DownloadApp />
       <Footer />
-      <Loading />
       <ContactIcons />
     </div>
   )

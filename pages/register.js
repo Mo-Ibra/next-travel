@@ -1,4 +1,4 @@
-import { Footer, Loading, Navbar, Topbar } from "../components";
+import { Footer, Navbar, Topbar } from "../components";
 
 import { Register } from '../sections';
 
@@ -15,7 +15,6 @@ function register() {
             <Navbar />
             <Register />
             <Footer />
-            <Loading />
         </div>
     )
 }

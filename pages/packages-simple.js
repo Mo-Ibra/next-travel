@@ -1,4 +1,4 @@
-import { Footer, Navbar, Breadcrumb, Topbar, Loading, ContactIcons } from '../components';
+import { Footer, Navbar, Breadcrumb, Topbar, ContactIcons } from '../components';
 
 import { DownloadApp, PackagesSimple } from '../sections';
 
@@ -17,7 +17,6 @@ function index() {
             <PackagesSimple />
             <DownloadApp />
             <Footer />
-            <Loading />
             <ContactIcons />
         </div>
     )
