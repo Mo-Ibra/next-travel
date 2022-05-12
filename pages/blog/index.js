@@ -1,7 +1,6 @@
-import { Footer, Navbar, Topbar, Breadcrumb } from "../../components"
-import ContactIcons from "../../sections/ContactIcons/ContactIcons"
-import DownloadApp from "../../sections/DownloadApp/DownloadApp"
-import Post from '../../sections/Blog/Post/Post'
+import { Footer, Navbar, Topbar, Breadcrumb, ContactIcons} from "../../components"
+
+import { DownloadApp, Post } from '../../sections';
 
 function index() {
     return (
