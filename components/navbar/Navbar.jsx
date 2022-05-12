@@ -15,46 +15,84 @@ function Navbar() {
         <div className="navbar" id="myNavbar">
             <Image src={Logo} alt="Logo" id='logo' />
             <div>
-                <a href="/" className="active">Home</a>
+                <Link href="/">
+                    <a>Home</a>
+                </Link>
                 <div className="dropdown">
                     <button className="dropdown-btn">About</button>
                     <div className="dropdown-content">
-                        <a href="/about-1">About 1</a>
-                        <a href="/about-2">About 2</a>
+                        <Link href="/about-1">
+                            <a>About 1</a>
+                        </Link>
+                        <Link href="/about-2">
+                            <a>About 2</a>
+                        </Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <button className="dropdown-btn">Pacakges</button>
                     <div className="dropdown-content">
-                        <a href="/packages">All Packages</a>
-                        <a href="/packages-grid">Packages Grid</a>
-                        <a href="/packages-simple">Packages Simple</a>
+                        <Link href="/packages">
+                            <a>All Packages</a>
+                        </Link>
+                        <Link href="/packages-grid">
+                            <a>Packages Grid</a>
+                        </Link>
+                        <Link href="/packages-simple">
+                            <a>Packages Simple</a>
+                        </Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <button className="dropdown-btn">Pages</button>
                     <div className="dropdown-content">
-                        <a href="/tours">Tours</a>
-                        <a href="/cities">Cities</a>
-                        <a href="/hotels">Hotels</a>
-                        <a href="/branding">Branding</a>
-                        <a href="/faq">Faq</a>
-                        <a href="/testimonials">Testimonials</a>
-                        <a href="/price">Pricing</a>
-                        <a href="/service">Service</a>
-                        <a href="/soon">Soon</a>
-                        <a href="/404">Not found</a>
+                        <Link href="/tours">
+                            <a>Tours</a>
+                        </Link>
+                        <Link href="/cities">
+                            <a>Cities</a>
+                        </Link>
+                        <Link href="/hotels">
+                            <a>Hotels</a>
+                        </Link>
+                        <Link href="/branding">
+                            <a>Branding</a>
+                        </Link>
+                        <Link href="/faq">
+                            <a>Faq</a>
+                        </Link>
+                        <Link href="/testimonials">
+                            <a>Testimonials</a>
+                        </Link>
+                        <Link href="/price">
+                            <a>Pricing</a>
+                        </Link>
+                        <Link href="/service">
+                            <a>Service</a>
+                        </Link>
+                        <Link href="/soon">
+                            <a>Soon</a>
+                        </Link>
+                        <Link href="/404">
+                            <a>Not found</a>
+                        </Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <button className="dropdown-btn">Auth</button>
                     <div className="dropdown-content">
-                        <a href="/login">Login</a>
-                        <a href="/register">Register</a>
-                        <a href="/forget-password">Forget Password</a>
+                        <Link href="/login">
+                            <a>Login</a>
+                        </Link>
+                        <Link href="/register">
+                            <a>Register</a>
+                        </Link>
+                        <Link href="/forget-password">
+                            <a>Forget Password</a>
+                        </Link>
                     </div>
                 </div>
-                <a href="/contact">Contact</a>
+                <Link href="/contact">Contact</Link>
             </div>
             <a href='#' className="icon" onClick={toggleNav}><AiOutlineMenu /></a>
         </div>

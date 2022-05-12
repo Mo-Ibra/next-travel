@@ -2,9 +2,15 @@ import { Footer, Navbar, Topbar, Breadcrumb, ContactIcons, Loading } from "../co
 
 import { DownloadApp, ContactInfo, ContactForm } from '../sections';
 
+import Head from "next/head";
+
 function index() {
     return (
-        <>
+        <div>
+            <Head>
+                <title>Contact Page</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <Topbar />
             <Navbar />
             <Breadcrumb pageName="Contact" />
@@ -14,7 +20,7 @@ function index() {
             <Footer />
             <ContactIcons />
             <Loading />
-        </>
+        </div>
     )
 }
 

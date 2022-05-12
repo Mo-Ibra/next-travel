@@ -1,9 +1,15 @@
 import { Footer, Navbar, Breadcrumb, Topbar, Loading, ContactIcons } from '../components';
 import { DownloadApp, PackagesGrid } from '../sections';
 
+import Head from 'next/head';
+
 function index() {
     return (
-        <>
+        <div>
+            <Head>
+                <title>Packages Grid</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <Topbar />
             <Navbar />
             <Breadcrumb pageName="All Packages Page" />
@@ -12,7 +18,7 @@ function index() {
             <Footer />
             <Loading />
             <ContactIcons />
-        </>
+        </div>
     )
 }
 

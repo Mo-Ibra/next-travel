@@ -2,9 +2,10 @@ import { useEffect } from 'react';
 import styles from './loading.module.scss';
 
 function Loading() {
+
     useEffect(() => {
         let loadingProvider = document.getElementById('loading-provider');
-        window.onload = function() {
+        window.onload = function () {
             setTimeout(() => {
                 loadingProvider.classList.add('opacity-0');
                 setTimeout(() => {

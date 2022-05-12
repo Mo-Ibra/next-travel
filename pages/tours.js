@@ -2,9 +2,15 @@ import { Footer, Navbar, Breadcrumb, Topbar, ContactIcons, Loading } from "../co
 
 import { DownloadApp, Tours } from '../sections';
 
+import Head from "next/head";
+
 function index() {
     return (
-        <>
+        <div>
+            <Head>
+                <title>Tours Page</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <Topbar />
             <Navbar />
             <Breadcrumb pageName="Tours" />
@@ -13,7 +19,7 @@ function index() {
             <Footer />
             <ContactIcons />
             <Loading />
-        </>
+        </div>
     )
 }
 
