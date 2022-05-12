@@ -92,7 +92,9 @@ function Navbar() {
                         </Link>
                     </div>
                 </div>
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact">
+                    <a>Contact</a>
+                </Link>
             </div>
             <a href='#' className="icon" onClick={toggleNav}><AiOutlineMenu /></a>
         </div>
