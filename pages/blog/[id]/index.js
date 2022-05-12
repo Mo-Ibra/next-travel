@@ -1,7 +1,6 @@
-import { Footer, Navbar, Breadcrumb, Topbar } from "../../../components"
-import ContactIcons from "../../../sections/ContactIcons/ContactIcons"
-import DownloadApp from "../../../sections/DownloadApp/DownloadApp"
-import Single from '../../../sections/Blog/Single/Single';
+import { Footer, Navbar, Breadcrumb, Topbar, ContactIcons } from "../../../components"
+
+import { DownloadApp, Single } from '../../../sections';
 
 function index() {
     return (
