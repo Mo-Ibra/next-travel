@@ -23,3 +23,4 @@ export { default as Service } from './Service/Service';
 export { default as Soon } from './Soon/Soon';
 export { default as Testimonials } from './Testimonials/Testimonials';
 export { default as Tours } from './Tours/Tours';
+export { default as Offer } from './Offer/Offer';

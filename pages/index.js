@@ -29,3 +29,10 @@ function Home() {
 }
 
 export default Home
+
+// Write docs
+// make about page 1
+// make about page 2
+// Change logo
+// Change images
+// Change words
