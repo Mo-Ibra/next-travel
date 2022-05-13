@@ -2,11 +2,11 @@ import Image from 'next/image';
 
 import { AiFillStar, AiFillFlag, AiFillCheckCircle } from 'react-icons/ai';
 
-function Card({imageUrl, name, rating, tickets}) {
+function Card({ imageUrl, name, rating, tickets, locations = [] }) {
 
-    const Icons = ({count}) => (
-        Array.from({length: count}).map((_item, index) =>
-            <AiFillStar key={index} className='inline-block text-yellow-500'/>
+    const Icons = ({ count }) => (
+        Array.from({ length: count }).map((_item, index) =>
+            <AiFillStar key={index} className='inline-block text-yellow-500' />
         )
     )
 
@@ -46,22 +46,14 @@ function Card({imageUrl, name, rating, tickets}) {
                         </div>
                     </div>
                     <div>
-                        <div className="inline-flex items-center mr-2">
-                            <AiFillCheckCircle className='mr-1 text-blue-500' />
-                            <p className='text-gray-700 font-semibold'>Rio, Brazil(3 days)</p>
-                        </div>
-                        <div className="inline-flex items-center mr-2">
-                            <AiFillCheckCircle className='mr-1 text-blue-500' />
-                            <p className='text-gray-700 font-semibold'>Rio, Brazil(3 days)</p>
-                        </div>
-                        <div className="inline-flex items-center mr-2">
-                            <AiFillCheckCircle className='mr-1 text-blue-500' />
-                            <p className='text-gray-700 font-semibold'>Rio, Brazil(3 days)</p>
-                        </div>
-                        <div className="inline-flex items-center mr-2">
-                            <AiFillCheckCircle className='mr-1 text-blue-500' />
-                            <p className='text-gray-700 font-semibold'>Rio, Brazil(3 days)</p>
-                        </div>
+                        {
+                            locations.map(location => (
+                                <div className="inline-flex items-center mr-2">
+                                    <AiFillCheckCircle className='mr-1 text-blue-500' />
+                                    <p className='text-gray-700 font-semibold'>{location}</p>
+                                </div>
+                            ))
+                        }
                     </div>
                     <div className='my-2'>
                         <button className='bg-red-500 text-white mr-2 py-1 px-2 rounded-sm text-sm'>Book Now</button>

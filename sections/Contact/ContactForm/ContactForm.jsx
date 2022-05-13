@@ -2,16 +2,16 @@ import Image from 'next/image';
 
 import ContactImg from '../../../assets/images/contact/1.png';
 
-function ContactForm({theme, backgroundColor}) {
+function ContactForm({backgroundColor}) {
     return (
-        <section className={`${theme === 'dark' ? 'bg-gray-900 text-white' : null } ${backgroundColor} py-10`}>
+        <section className={`${backgroundColor} py-10`}>
             <div className="container mx-auto px-10">
                 <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className='description'>
-                        <h2 className={`${theme === 'dark' ? 'text-white' : 'text-gray-700'} text-4xl font-bold my-4`}>Talk to Our Sales & Marketing Department Team</h2>
-                        <p className={`${theme === 'dark' ? 'text-gray-500' : 'text-gray-700'} my-4`}>
-                            Collaboratively promote client-focused convergence vis-a-vis
-                            customer directed alignments via standardized infrastructures.
+                        <h2 className='text-gray-700 text-4xl font-bold my-4'>Talk to Our Team & Marketing Department Team</h2>
+                        <p className='text-gray-500 my-4'>
+                            If you have any kind of problems just contact us, 
+                            and make sure to write your email address in right way.
                         </p>
                         <form autoComplete='off'>
                             <div className="flex">

@@ -34,16 +34,16 @@ function Post({ backgroundColor }) {
                     modules={[Autoplay]}
                 >
                     <SwiperSlide>
-                        <Card imageUrl={BlogImage1} badge="Muslims" title="Do you really understand the concept of product value?" author="Jane Martin" />
+                        <Card imageUrl={BlogImage1} badge="Muslims" title="Do you want to travel somewhere comfortable?" author="Jane Martin" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card imageUrl={BlogImage2} badge="Arabian" title="Do you really understand the concept of product value?" author="Jane Martin" />
+                        <Card imageUrl={BlogImage2} badge="Arabian" title="We offer you many beautiful places in the world" author="Jane Martin" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card imageUrl={BlogImage3} badge="India" title="Do you really understand the concept of product value?" author="Jane Martin" />
+                        <Card imageUrl={BlogImage3} badge="India" title="We make more than a thousand trips annually" author="Jane Martin" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card imageUrl={BlogImage4} badge="France" title="Do you really understand the concept of product value?" author="Jane Martin" />
+                        <Card imageUrl={BlogImage4} badge="France" title="Don't be afraid, we do everything for you" author="Jane Martin" />
                     </SwiperSlide>
                     <SwiperSlide>
                         <Card imageUrl={BlogImage5} badge="Landscape" title="Do you really understand the concept of product value?" author="Jane Martin" />

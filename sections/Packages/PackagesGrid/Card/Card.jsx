@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import { AiFillStar, AiFillCaretRight, AiOutlineHeart} from 'react-icons/ai';
 
-function Card({imageUrl, title, review, rate}) {
+function Card({imageUrl, title, review, rate, price}) {
 
     const Icons = ({count}) => (
         Array.from({length: count}).map((_item, index) =>
@@ -38,7 +38,7 @@ function Card({imageUrl, title, review, rate}) {
                 </div>
             </div>
             <div className="absolute top-0 right-0 bg-red-500 text-white p-1 font-semibold text-sm rounded-bl-lg">
-                <p>$1,900 / per person</p>
+                <p>{price} / per person</p>
             </div>
         </div>
     )

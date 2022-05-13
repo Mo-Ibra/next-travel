@@ -19,7 +19,7 @@ function Header() {
                     <div className="container mx-auto px-10">
                         <div className='pt-24'>
                             <span className='text-white text-2xl font-semibold my-5 uppercase drop-shadow-md'>Do you want to travel today?</span>
-                            <h2 className='text-white text-6xl font-bold my-5 uppercase'>Welcome In <span className='text-red-500 underline'>Travelers</span> <br /> Safe trip with us.</h2>
+                            <h2 className='text-white text-6xl font-bold my-5 uppercase'>Welcome In <span className='text-red-500'>TravelBea</span> <br /> Safe trip with us.</h2>
                             <input
                                 type="text"
                                 placeholder='Enter your email!'
@@ -39,8 +39,8 @@ function Header() {
                 <section className={`${styles.headerSlide2} text-center relative z-10`}>
                     <div className="container mx-auto px-10">
                         <div className='pt-24'>
-                            <span className='text-white text-2xl font-semibold my-5 uppercase drop-shadow-md'>Do you want to travel today?</span>
-                            <h2 className='text-white text-6xl font-bold my-5 uppercase'>Welcome In <span className='text-red-500 underline'>Travelers</span> <br /> Safe trip with us.</h2>
+                            <span className='text-white text-2xl font-semibold my-5 uppercase drop-shadow-md'>Travel is really funny!</span>
+                            <h2 className='text-white text-6xl font-bold my-5 uppercase'>Welcome In <span className='text-red-500'>TravelBea</span> <br /> Safe trip with us.</h2>
                             <input
                                 type="text"
                                 placeholder='Enter your email!'
@@ -60,8 +60,8 @@ function Header() {
                 <section className={`${styles.headerSlide3} text-center relative z-10`}>
                     <div className="container mx-auto px-10">
                         <div className='pt-24'>
-                            <span className='text-white text-2xl font-semibold my-5 uppercase drop-shadow-md'>Do you want to travel today?</span>
-                            <h2 className='text-white text-6xl font-bold my-5 uppercase'>Welcome In <span className='text-red-500 underline'>Travelers</span> <br /> Safe trip with us.</h2>
+                            <span className='text-white text-2xl font-semibold my-5 uppercase drop-shadow-md'>Everything will done in seconds.</span>
+                            <h2 className='text-white text-6xl font-bold my-5 uppercase'>Welcome In <span className='text-red-500'>TravelBea</span> <br /> Safe trip with us.</h2>
                             <input
                                 type="text"
                                 placeholder='Enter your email!'

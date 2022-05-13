@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import { AiFillStar } from 'react-icons/ai';
 
-function Card({ imageUrl, tickets, rating, price }) {
+function Card({ imageUrl, tickets, name, city, rating, price }) {
 
     const Icons = ({count}) => (
         Array.from({length: count}).map((_item, index) =>
@@ -20,8 +20,8 @@ function Card({ imageUrl, tickets, rating, price }) {
                 </div>
             </div>
             <div className='p-4'>
-                <h3 className='text-lg font-semibold text-gray-700 my-1'>GTC Grand Chola</h3>
-                <p className='text-sm text-gray-500 my-1'>City: illunois,united states</p>
+                <h3 className='text-lg font-semibold text-gray-700 my-1'>{name}</h3>
+                <p className='text-sm text-gray-500 my-1'>City: {city}</p>
                 <div className='text-sm text-gray-500 my-1'>
                     <span className='mr-2'>Rating:</span>
                     <Icons count={rating} />

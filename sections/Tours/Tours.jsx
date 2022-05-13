@@ -21,11 +21,11 @@ function Tours() {
                 <Title header="Our Tours" span="We Offer all of that" />
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <Card imageUrl={TourImg1} name="Rio De Janeiro" city="Brazil" off="50%" />
-                    <Card imageUrl={TourImg2} name="Rio De Janeiro" city="Brazil" off="75%" />
-                    <Card imageUrl={TourImg3} name="Rio De Janeiro" city="Brazil" />
-                    <Card imageUrl={TourImg4} name="Rio De Janeiro" city="Brazil" />
-                    <Card imageUrl={TourImg5} name="Rio De Janeiro" city="Brazil" />
-                    <Card imageUrl={TourImg6} name="Rio De Janeiro" city="Brazil" off="25%" />
+                    <Card imageUrl={TourImg2} name="Maui" city="Maui" off="75%" />
+                    <Card imageUrl={TourImg3} name="Paris" city="France" />
+                    <Card imageUrl={TourImg4} name="New Zealand" city="German" />
+                    <Card imageUrl={TourImg5} name="London" city="England" />
+                    <Card imageUrl={TourImg6} name="Rome" city="Italy" off="25%" />
                 </div>
             </div>
             <div className="absolute top-0 left-0 right-0 bottom-0" style={{ zIndex: '-1' }}>

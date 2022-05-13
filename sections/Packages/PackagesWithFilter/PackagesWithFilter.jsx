@@ -32,22 +32,22 @@ function PackagesWithFilter() {
                                 <div className="text-center border-b border-slate-200 pb-2">
                                     <h3 className='text-lg font-bold'>Suggesting Packages</h3>
                                 </div>
-                                <SuggestCard imageUrl={PackageImg1} name="Bali, Indonesia" rate="4.2" />
-                                <SuggestCard imageUrl={PackageImg2} name="Bali, Indonesia" rate="4.7" />
-                                <SuggestCard imageUrl={PackageImg3} name="Bali, Indonesia" rate="4.9" />
-                                <SuggestCard imageUrl={PackageImg4} name="Bali, Indonesia" rate="4.2" />
-                                <SuggestCard imageUrl={PackageImg5} name="Bali, Indonesia" rate="3.9" />
-                                <SuggestCard imageUrl={PackageImg1} name="Bali, Indonesia" rate="3.8" />
+                                <SuggestCard imageUrl={PackageImg1} name="Paris, New york" rate="4.2" />
+                                <SuggestCard imageUrl={PackageImg2} name="Morocco, Tunisa" rate="4.7" />
+                                <SuggestCard imageUrl={PackageImg3} name="Italy" rate="4.9" />
+                                <SuggestCard imageUrl={PackageImg4} name="Malisia" rate="4.2" />
+                                <SuggestCard imageUrl={PackageImg5} name="London" rate="3.9" />
+                                <SuggestCard imageUrl={PackageImg1} name="Paris, Italy" rate="3.8" />
                             </div>
                         </div>
                     </div>
                     <div className={`${mount && isTablet ? 'block' : 'flex-1'}`}>
                         <div className='p-4'>
                             <Card imageUrl={PackageImg1} name="Swiss, Paris & Italy" price="650" />
-                            <Card imageUrl={PackageImg2} name="Swiss, Paris & Italy" price="650" />
-                            <Card imageUrl={PackageImg3} name="Swiss, Paris & Italy" price="650" />
-                            <Card imageUrl={PackageImg4} name="Swiss, Paris & Italy" price="650" />
-                            <Card imageUrl={PackageImg5} name="Swiss, Paris & Italy" price="650" />
+                            <Card imageUrl={PackageImg2} name="Morocco & Tunisa" price="650" />
+                            <Card imageUrl={PackageImg3} name="London, Paris & German" price="650" />
+                            <Card imageUrl={PackageImg4} name="United Arab Emirates" price="650" />
+                            <Card imageUrl={PackageImg5} name="Italy & London" price="650" />
                         </div>
                     </div>
                 </div>
