@@ -56,7 +56,7 @@ function Footer() {
                                 <li className='my-2 cursor-pointer'>Trips</li>
                                 <li className='my-2 cursor-pointer'>Hotels</li>
                                 <li className='my-2 cursor-pointer'>Why Us?</li>
-                                <li className='my-2 cursor-pointer'>Let's Contact</li>
+                                <li className='my-2 cursor-pointer'>Lets Contact</li>
                             </ul>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ function Footer() {
             <div className='copyRight py-5 text-gray-700'>
                 <div className="container mx-auto px-10">
                     <div className="flex justify-between">
-                        <p>&copy; 2022 Quiety Rights Reserved.</p>
+                        <p>@ 2022 Quiety Rights Reserved.</p>
                         <div>
                             <div className='inline-block shadow-lg p-2 border border-slate-200 mx-1 cursor-pointer'>
                                 <AiOutlineFacebook />

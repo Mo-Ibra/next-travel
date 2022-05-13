@@ -32,7 +32,7 @@ export default Home
 
 // make about page 1 (Done)
 // make about page 2 (Done)
-// Change logo
+// Change logo & favicon
 // Change images
 // Change words ( Done )
 // Write docs
