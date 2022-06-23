@@ -1,8 +1,5 @@
 # Social Media App With React JS & MUI
 
-![Restaurant App With React Js & Next & tailwindcss](https://raw.githubusercontent.com/Dev-Maradona/next-travel/main/preview/1.png?token=GHSAT0AAAAAABVY2QMUYQMN4SBDNXJKHMXMYVT66ZQ)
-
-##
 
 ![Restaurant App With React Js & Next & tailwindcss](https://raw.githubusercontent.com/Dev-Maradona/next-travel/main/preview/2.png?token=GHSAT0AAAAAABVY2QMVMGMSOCEM3VADWLDKYVT7BFA)
 
