@@ -1,28 +1,4 @@
-# Social Media App With React JS & MUI
-
-
-![Restaurant App With React Js & Next & tailwindcss](https://raw.githubusercontent.com/Dev-Maradona/next-travel/main/preview/2.png?token=GHSAT0AAAAAABVY2QMVMGMSOCEM3VADWLDKYVT7BFA)
-
-##
-
-![Restaurant App With React Js & Next & tailwindcss](https://raw.githubusercontent.com/Dev-Maradona/next-travel/main/preview/3.png?token=GHSAT0AAAAAABVY2QMVRPDEL6EGXEEEJTUQYVT7BQQ)
-
-
-##
-
-![Restaurant App With React Js & Next & tailwindcss](https://raw.githubusercontent.com/Dev-Maradona/next-travel/main/preview/4.png?token=GHSAT0AAAAAABVY2QMVYL23H22JMOQUPUB4YVT7BZQ)
-
-##
-
-![Restaurant App With React Js & Next & tailwindcss](https://raw.githubusercontent.com/Dev-Maradona/next-travel/main/preview/5.png?token=GHSAT0AAAAAABVY2QMVILBDKIBUWDKYCKHYYVT7CHA)
-
-##
-
-![Restaurant App With React Js & Next & tailwindcss](https://raw.githubusercontent.com/Dev-Maradona/next-travel/main/preview/6.png?token=GHSAT0AAAAAABVY2QMVCODIUNQMTMW3K5I6YVT7CRA)
-
-##
-
-![Restaurant App With React Js & Next & tailwindcss](https://raw.githubusercontent.com/Dev-Maradona/next-travel/main/preview/7.png?token=GHSAT0AAAAAABVY2QMVSW7UN7IAD35X6EZEYVT7DCA)
+# Next Travel Website With Next & TailiwndCSS.
 
 ## Live demo
 
