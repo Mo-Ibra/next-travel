@@ -1,39 +1,92 @@
 # Next Travel Website With Next & TailiwndCSS.
 
+Next-Corsera is a fully featured platform designed for selling and enrolling in online courses. Inspired by popular platforms like Udemy and Coursera, this project aims to provide a modern, scalable, and user-friendly system for both course creators and learners.
+
 ## Live demo
 
-Check the live demo here 👉️ [https://next-travel-beta.vercel.app/](https://next-travel-beta.vercel.app//)
+Check the live demo here 👉️ [Take a look](https://next-travel-beta.vercel.app//)
 
-## Table of contents
+## Features 🌟
 
-* [Usage](#usage)
-  * [Project setup](#project-setup)
-  * [Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
-  * [Compiles and minifies for production](#compiles-and-minifies-for-production)
-* [Stay in the loop](#stay-in-the-loop)
+- **Built with Next.js**: A React-based framework for fast, server-side rendering, and static site generation.
+- **Styled with TailwindCSS**: A utility-first CSS framework for fast and responsive design.
+- **20+ Pages**: A variety of pages including:
+  - Homepage with featured cities and packages 🌏
+  - City details page 🏙️
+  - Travel packages listings 🧳
+  - User login and registration forms 🔐
+  - Dynamic, SEO-friendly URLs for each destination and package.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile views 📱💻
+- **Smooth Navigation**: Easy-to-use navigation between pages with dynamic routing.
 
-## Usage
+## Technologies Used 🌟
 
-This project was bootstrapped with [Vite](https://vitejs.dev/).
+- **Next.js**: For server-side rendering and page routing.
+- **TailwindCSS**: For utility-first CSS styling.
+- **React.js**: The core JavaScript library for building user interfaces.
+- **React Icons**: For adding icons throughout the UI.
+- **Next Image**: For optimized image rendering, improving page load times.
 
-### Project setup
-```
-npm install
-```
+## Screenshots 🖼️
 
-#### Compiles and hot-reloads for development
-```
-npm run dev
-```
+Below are some screenshots of the platform:
 
-#### Compiles and minifies for production
-```
-npm run build
-```
+### Homepage
 
-## Stay in the loop
+![Homepage](preview/1.png)
 
-If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Maradon16007828)
+### About Us Page
 
-## Buy a coffe
-Just buy for me a coffee for support me [Buy me a Coffee](https://www.buymeacoffee.com/DevMaradona).
+![About Us](preview/2.png)
+
+### Contact Us Page
+![Contact Us](preview/3.png)
+
+### Auth Page
+
+![Login Page](preview/4.png)
+
+### Packages Page
+
+![Packages Page](preview/5.png)
+
+## Installation ⚙️
+
+### Steps to Install
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Mo-Ibra/next-travel
+   cd next-travel
+   ```
+2. **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the application:**
+
+    ```bash
+    npm run dev
+    ```
+
+4. Open your browser and go to http://localhost:3000 to view the application.
+
+## License 🤝
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments 🙏
+Thanks to the creators of Next.js and Tailwind CSS, which made the development process fast and efficient. 🌟
+
+Special thanks to all the open-source libraries and components used to build a modern and responsive user interface.
+Contact 🌐
+
+## Contact 📧
+
+For any questions or feedback, feel free to reach out:
+
+**Email: mohamedelgedwy245@gmail.com**
+
+**GitHub: [@Mo-Ibra](https://github.com/Mo-Ibra)**
