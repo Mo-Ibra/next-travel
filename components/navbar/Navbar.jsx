@@ -1,8 +1,8 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 
 import { AiOutlineMenu } from 'react-icons/ai';
-import Logo from '../../assets/images/logo.png';
+// import Logo from '../../assets/images/logo.png';
 
 function Navbar() {
 
@@ -13,7 +13,10 @@ function Navbar() {
 
     return (
         <div className="navbar" id="myNavbar">
-            <Image src={Logo} alt="Logo" id='logo' />
+            {/* <Image src={Logo} alt="Logo" id='logo' /> */}
+            <Link href="/">
+                <h2 className='text-2xl font-bold cursor-pointer'>Travel<span className='text-red-500 text-3xl'>BEA</span></h2>
+            </Link>
             <div>
                 <Link href="/">
                     <a>Home</a>
