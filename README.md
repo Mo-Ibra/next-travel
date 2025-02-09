@@ -1,6 +1,6 @@
 # Next Travel Website With Next & TailiwndCSS.
 
-Next-Corsera is a fully featured platform designed for selling and enrolling in online courses. Inspired by popular platforms like Udemy and Coursera, this project aims to provide a modern, scalable, and user-friendly system for both course creators and learners.
+A modern, fully responsive Travel Website built using Next.js, designed to help users explore destinations, book trips, and find travel inspiration.
 
 ## Live demo
 
